@@ -21,6 +21,10 @@ select {
     font-family: 'Roboto', sans-serif;
 }
 
+ul {
+    list-style: none;
+}
+
 :root {
     --color-purple: #635FC7;
     --color-purple-200: rgba(99, 95, 199, 0.25);
