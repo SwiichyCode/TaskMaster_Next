@@ -1,26 +1,23 @@
 import React from "react";
-import styled from "styled-components";
+import * as S from "./styles";
 
 interface ButtonProps extends React.ButtonHTMLAttributes<HTMLButtonElement> {
   text: string;
   color?: string;
+  bgColor?: string;
+  theme?: "primary" | "secondary";
 }
 
-export const Button = ({ text, color, ...props }: ButtonProps) => {
+export const Button = ({
+  text,
+  color,
+  bgColor,
+  theme,
+  ...props
+}: ButtonProps) => {
   return (
-    <StyledButton color={color} {...props}>
+    <S.StyledButton color={color} bgColor={bgColor} theme={theme} {...props}>
       {text}
-    </StyledButton>
+    </S.StyledButton>
   );
 };
-
-export const StyledButton = styled.button`
-  font-size: 1.6rem;
-  line-height: 1.6rem;
-  padding: 1.5rem 2.5rem;
-  border-radius: 3.6rem;
-  background: #7214ff;
-  color: ${({ color }) => color || "var(--color-white)"};
-  border: none;
-  cursor: pointer;
-`;
