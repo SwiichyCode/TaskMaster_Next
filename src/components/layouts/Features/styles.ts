@@ -14,6 +14,7 @@ export const HeaderWrapper = styled.div`
     font-size: 3.4rem;
     line-height: 4.4rem;
     background: var(--color-gradient);
+    background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     padding-right: 2rem;

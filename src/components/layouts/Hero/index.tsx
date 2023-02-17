@@ -4,13 +4,14 @@ import React from "react";
 import imgHero from "@/assets/hero.svg";
 import * as S from "./styles";
 import { SectionWrapper } from "@/components/wrappers/SectionWrapper";
+import { TitleGradient } from "@/components/global/TitleGradient";
 
 export const Hero = () => {
   return (
     <SectionWrapper>
       <S.Container>
         <S.Wrapper>
-          <h1>A CRM DASHBOARD FOR ENGINEERING TEAMS</h1>
+          <TitleGradient as="h1" text="A CRM DASHBOARD FOR ENGINEERING TEAMS" />
           <p>
             Rorem ipsum dolor sit amet consectetur. Gravida convallis orci
             ultrices non. Ultricies tempor at ut cursus mi. Aliquam sed amet

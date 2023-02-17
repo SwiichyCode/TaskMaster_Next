@@ -3,14 +3,6 @@ import styled from "styled-components";
 export const Container = styled.div`
   text-align: center;
 
-  h1 {
-    font-size: 4.4rem;
-    line-height: 5.2rem;
-    background: var(--color-gradient);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-  }
-
   p {
     max-width: 80rem;
     font-size: 1.8rem;

@@ -1,6 +1,7 @@
 import React from "react";
 import { SectionWrapper } from "@/components/wrappers/SectionWrapper";
-import { FeaturesCard } from "../FeaturesCard";
+import { TitleGradient } from "@/components/global/TitleGradient";
+import { FeaturesCard } from "@/components/layouts/Features/FeaturesCard";
 import { items } from "./data";
 import * as S from "./styles";
 
@@ -9,7 +10,10 @@ export const Features = () => {
     <SectionWrapper>
       <S.Container>
         <S.HeaderWrapper>
-          <h2>Powerful features to help you manage all your leads</h2>
+          <TitleGradient
+            as="h2"
+            text="Powerful features to help you manage all your leads"
+          />
           <p>
             Apsum dolor sit amet consectetur. Aliquam elementum elementum in
             ultrices. Dui maecenas ut eros turpis ultrices metus morbi aliquet
