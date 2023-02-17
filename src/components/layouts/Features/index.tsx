@@ -15,9 +15,9 @@ export const Features = () => {
             text="Easy and effective features for seamless project management."
           />
           <p>
-            Apsum dolor sit amet consectetur. Aliquam elementum elementum in
-            ultrices. Dui maecenas ut eros turpis ultrices metus morbi aliquet
-            vel.
+            Empower your project management with powerful features. Gain
+            complete control over your tasks, ideas, and collaboration with
+            easy-to-use tools.
           </p>
         </S.HeaderWrapper>
         <S.FeaturesWrapper>
