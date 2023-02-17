@@ -74,4 +74,4 @@ import HttpApi from "i18next-http-backend";
 //   },
 //   debug: process.env.NODE_ENV === "development",
 // });
-export default i18next;
+// export default i18next;
