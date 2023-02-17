@@ -16,7 +16,7 @@ export const Hero = () => {
         <S.Wrapper>
           <TitleGradient
             as="h1"
-            text={"Simplify Your Workflow with Task Master"}
+            text="Simplify Your Workflow with Task Master"
           />
           <p>
             Enhance your project management with Task Master. Invite
