@@ -9,6 +9,13 @@ export const Container = styled.div`
     line-height: 2.6rem;
     color: #8f9bb7;
   }
+
+  img {
+    width: 100%;
+    max-width: 80.8rem;
+    height: 100%;
+    object-fit: contain;
+  }
 `;
 
 export const Wrapper = styled.div`

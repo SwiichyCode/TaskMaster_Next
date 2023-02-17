@@ -7,6 +7,8 @@ export const Container = styled.div`
 
 export const HeaderWrapper = styled.div`
   ${({ theme }) => theme.mixins.flexBetween}
+  flex-wrap: wrap;
+  gap: 1.6rem;
 
   h2 {
     max-width: 61.2rem;

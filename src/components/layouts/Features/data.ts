@@ -8,38 +8,38 @@ import emailIcon from "@/assets/icons/email-icon.svg";
 export const items = [
   {
     src: userIcon,
-    title: "user information",
+    title: "Collaborative Planning",
     description:
-      "Borem ipsum dolor sit amet consectetur. Turpis tristique nulla posuere et amet arcu dictum ultricies convallis.",
+      "Collaborate with your team to easily plan and organize your projects. Share ideas, tasks, and comments in real-time for better collaboration.",
   },
   {
     src: dealTrackingIcon,
-    title: "deal tracking",
+    title: "Task Management",
     description:
-      "Worem ipsum dolor sit amet consectetur. Turpis tristique nulla posuere et amet arcu dictum ultricies convallis.",
+      "Efficiently manage your tasks by organizing, prioritizing, and tracking them. Assign tasks to collaborators, set deadlines, and get real-time updates.",
   },
   {
     src: pipelineManagementIcon,
-    title: "pipeline management",
+    title: "Idea Tracking",
     description:
-      "Dorem ipsum dolor sit amet consectetur. Turpis tristique nulla posuere et amet arcu dictum ultricies convallis.",
+      "Track your ideas and inspirations in one place. Add notes, images, and files for better organization and collaboration.",
   },
   {
     src: reportingIcon,
-    title: "reporting dashboard",
+    title: "Project Overview",
     description:
-      "Yarem ipsum dolor sit amet consectetur. Turpis tristique nulla posuere et amet arcu dictum ultricies convallis.",
+      "Get a complete overview of your project at a glance. Visualize task progress, deadlines, and involved collaborators to stay on track.",
   },
   {
     src: meetingIcon,
-    title: "meeting scheduling",
+    title: "Progress Tracking",
     description:
-      "Dorem ipsum dolor sit amet consectetur. Turpis tristique nulla posuere et amet arcu dictum ultricies convallis.",
+      "Track your project progress in real-time. Get updates on task status, collaborator comments, and deadlines.",
   },
   {
     src: emailIcon,
     title: "email tracking",
     description:
-      "Keem ipsum dolor sit amet consectetur. Turpis tristique nulla posuere et amet arcu dictum ultricies convallis.",
+      "Receive real-time notifications to never miss anything. Be informed of task updates, comments, and new ideas for better collaboration.",
   },
 ];

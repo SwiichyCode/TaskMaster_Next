@@ -33,6 +33,10 @@ h2 {
     font-size: 3.4rem;
     line-height: 4.4rem;
 }
+p {
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+}
 :root {
     --color-purple: #635FC7;
     --color-purple-200: rgba(99, 95, 199, 0.25);

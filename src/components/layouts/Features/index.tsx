@@ -12,7 +12,7 @@ export const Features = () => {
         <S.HeaderWrapper>
           <TitleGradient
             as="h2"
-            text="Powerful features to help you manage all your leads"
+            text="Easy and effective features for seamless project management."
           />
           <p>
             Apsum dolor sit amet consectetur. Aliquam elementum elementum in

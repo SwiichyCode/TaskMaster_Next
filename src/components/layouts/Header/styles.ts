@@ -15,3 +15,10 @@ export const Wrapper = styled.div`
   width: 100%;
   max-width: 122.4rem;
 `;
+
+export const BtnWrapper = styled.div`
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+  width: 14.7rem;
+`;

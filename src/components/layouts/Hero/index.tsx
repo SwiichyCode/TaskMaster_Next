@@ -11,15 +11,17 @@ export const Hero = () => {
     <SectionWrapper>
       <S.Container>
         <S.Wrapper>
-          <TitleGradient as="h1" text="A CRM DASHBOARD FOR ENGINEERING TEAMS" />
+          <TitleGradient
+            as="h1"
+            text="Simplify Your Workflow with Task Master"
+          />
           <p>
-            Rorem ipsum dolor sit amet consectetur. Gravida convallis orci
-            ultrices non. Ultricies tempor at ut cursus mi. Aliquam sed amet
-            vitae orci ac penatibus consectetur.
+            Enhance your project management with Task Master. Invite
+            collaborators, centralize your ideas, and improve your work
+            efficiency.
           </p>
           <S.ButtonWrapper>
-            <Button text="Get a demo" theme="primary" />
-            <Button text="View pricing" theme="secondary" />
+            <Button text="Start now" theme="primary" />
           </S.ButtonWrapper>
         </S.Wrapper>
         <Image src={imgHero} width={808} height={513} alt="hero" />
