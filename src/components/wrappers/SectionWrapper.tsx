@@ -8,4 +8,5 @@ export const SectionWrapper = ({ children }: { children: React.ReactNode }) => {
 const Container = styled.section`
   width: 100%;
   max-width: 114.5rem;
+  padding: 7rem 0;
 `;

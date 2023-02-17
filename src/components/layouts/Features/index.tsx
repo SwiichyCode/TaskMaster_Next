@@ -1,5 +1,7 @@
-import { SectionWrapper } from "@/components/wrappers/SectionWrapper";
 import React from "react";
+import { SectionWrapper } from "@/components/wrappers/SectionWrapper";
+import { FeaturesCard } from "../FeaturesCard";
+import { items } from "./data";
 import * as S from "./styles";
 
 export const Features = () => {
@@ -14,6 +16,16 @@ export const Features = () => {
             vel.
           </p>
         </S.HeaderWrapper>
+        <S.FeaturesWrapper>
+          {items.map(({ src, title, description }, index) => (
+            <FeaturesCard
+              key={index}
+              src={src}
+              title={title}
+              description={description}
+            />
+          ))}
+        </S.FeaturesWrapper>
       </S.Container>
     </SectionWrapper>
   );

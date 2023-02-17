@@ -10,7 +10,7 @@ export const Header = () => {
       <S.Wrapper>
         <Logo />
         <Navbar />
-        <Button text="Get a demo" />
+        <Button text="Get a demo" theme="primary" />
       </S.Wrapper>
     </S.Container>
   );

@@ -4,6 +4,7 @@ export const Container = styled.header`
   ${({ theme }) => theme.mixins.flexBetween}
   height: 9.6rem;
   border-bottom: 1px solid #151934;
+  padding: 0 2.4rem;
 `;
 
 export const Wrapper = styled.div`
