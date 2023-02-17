@@ -1,4 +1,4 @@
-export const translationFr = {
+export const commonFr = {
   app_title: "Simplifiez votre flux de travail avec Task Master",
   app_subtitle:
     "Optimisez votre gestion de projet avec Task Master. Invitez des collaborateurs, centralisez vos idées et améliorez votre efficacité de travail.",
