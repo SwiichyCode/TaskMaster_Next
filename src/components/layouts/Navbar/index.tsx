@@ -4,7 +4,7 @@ import { items } from "./data";
 
 export const Navbar = () => {
   return (
-    <S.Container>
+    <S.Container role={"navigation"}>
       <ul>
         {items.map(({ url, text }, index) => (
           <li key={index}>
