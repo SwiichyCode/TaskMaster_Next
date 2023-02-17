@@ -66,15 +66,12 @@ const resources = {
   },
 };
 
-i18next
-  .use(initReactI18next)
-  // .use(HttpApi)
-  .init({
-    resources,
-    lng: "en",
-    interpolation: {
-      escapeValue: false,
-    },
-    debug: process.env.NODE_ENV === "development",
-  });
+i18next.use(initReactI18next).init({
+  resources,
+  lng: "en",
+  interpolation: {
+    escapeValue: false,
+  },
+  debug: process.env.NODE_ENV === "development",
+});
 export default i18next;
