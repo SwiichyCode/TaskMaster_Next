@@ -3,6 +3,10 @@ import styled from "styled-components";
 export const Container = styled.nav`
   padding-top: 0.4rem;
 
+  @media screen and (max-width: 768px) {
+    display: none;
+  }
+
   ul {
     display: flex;
     gap: 1.5rem;
