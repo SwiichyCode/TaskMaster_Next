@@ -14,11 +14,7 @@ export const Hero = () => {
     <SectionWrapper>
       <S.Container>
         <S.Wrapper>
-          <TitleGradient
-            as="h1"
-            // text="Simplify Your Workflow with Task Master"
-            text={t("app_title")}
-          />
+          <TitleGradient as="h1" text={t("app_title")} />
           <p>{t("app_subtitle")}</p>
           <S.ButtonWrapper>
             <Button text="Start now" theme="primary" />
