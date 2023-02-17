@@ -1,5 +1,4 @@
 import Image from "next/image";
-import React from "react";
 import { Button } from "@/components/global/Button";
 import { SectionWrapper } from "@/components/wrappers/SectionWrapper";
 import { TitleGradient } from "@/components/global/TitleGradient";
@@ -14,15 +13,8 @@ export const Hero = () => {
     <SectionWrapper>
       <S.Container>
         <S.Wrapper>
-          <TitleGradient
-            as="h1"
-            text="Simplify Your Workflow with Task Master"
-          />
-          <p>
-            Enhance your project management with Task Master. Invite
-            collaborators, centralize your ideas, and improve your work
-            efficiency.
-          </p>
+          <TitleGradient as="h1" text={t("app_title")} />
+          <p>{t("app_subtitle")}</p>
           <S.ButtonWrapper>
             <Button text="Start now" theme="primary" />
           </S.ButtonWrapper>
